@@ -84,7 +84,7 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
 ### 
 1. Find the top 3 most-viewed tracks for each artist using window functions.
 2. Write a query to find tracks where the liveness score is above the average.
-–≠æ…¬¬˚˚∆∆˙˙˙
+˜µ≤≥÷æ…“‘«\
 4. **Use a `WITH` clause to calculate the difference between the highest and lowest energy values for tracks in each album.**
 ```sql
 WITH cte
