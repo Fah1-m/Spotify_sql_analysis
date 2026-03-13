@@ -1,4 +1,4 @@
-# Spotify Advanced SQL Project and Query Optimization P-6
+# Spotify Advanced SQL Project and Query Optimization 
 Project Category: Advanced
 [Click Here to get Dataset](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
@@ -84,14 +84,15 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
 ### 
 1. Find the top 3 most-viewed tracks for each artist using window functions.
 2. Write a query to find tracks where the liveness score is above the average.
-3. **Use a `WITH` clause to calculate the difference between the highest and lowest energy values for tracks in each album.**
+–≠æ…¬¬˚˚∆∆˙˙˙
+4. **Use a `WITH` clause to calculate the difference between the highest and lowest energy values for tracks in each album.**
 ```sql
 WITH cte
 AS
 (SELECT 
 	album,
 	MAX(energy) as highest_energy,
-	MIN(energy) as lowest_energery
+	MIN(energy) as lowest_energeryƒ
 FROM spotify
 GROUP BY 1
 )
